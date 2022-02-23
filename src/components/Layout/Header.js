@@ -1,11 +1,12 @@
-import styles from './Header.module.css';
+import styles from "./Header.module.css";
+import HeaderCartButton from "./HeaderCartButton";
 
 const Header = (props) => {
 	return (
 		<>
 			<header className={styles.header}>
 				<h1>Mealano</h1>
-				<button>Cart</button>
+				<HeaderCartButton />
 			</header>
 			<div className={styles["main-image"]}>
 				<img
